@@ -37,7 +37,7 @@ async function handleDelete(Userid){
 }
 
 return (
-    <div className="flex items-center justify-center gap-10 flex-wrap mt-4">
+    <div className="flex items-center justify-center gap-10 flex-wrap my-8 h-screen">
         {showModal &&
           createPortal(
             <MapContent profile={selectedProfile} onclose={() => setShowModal(false)} />,
@@ -46,7 +46,7 @@ return (
       {profile.length > 0 &&
         profile.map((user) => (
           <div key={user._id} className="h-[15rem] w-[20%] border rounded-md text-center relative">
-            <ImCross className='absolute right-[-10px] top-[-10px] bg-red-700 text-white p-1 text-xl rounded-full' onClick={()=>handleDelete(user._id)}/>
+            <ImCross className='absolute right-[-10px] top-[-10px] bg-red-700 text-white p-1 text-xl rounded-full cursor-pointer' onClick={()=>handleDelete(user._id)}/>
             <h2 className="my-3">{user.name}</h2>
             <img
               src={user.photo}
@@ -56,7 +56,7 @@ return (
             <p className="mt-4">{user.description}</p>
             <button
               onClick={() => handleOpenModal(user)}
-              className="bg-blue-400 rounded px-4 py-2 mt-4"
+              className="bg-blue-400 rounded px-4 py-2 mt-4 cursor-pointer"
             >
               Summary
             </button>

@@ -97,26 +97,27 @@ function Profile() {
     }
   }
   return (
-    <div className="">
+    <div className="text-center mt-2 w-[40rem] mx-auto">
+      <h1 className='text-2xl font-bold'>Create Your Profile</h1>
       <form
         action=""
         encType="multipart/form-data"
         onSubmit={handleSubmit}
-        className="flex flex-col justify-center items-center gap-2 border py-5"
+        className="flex flex-col justify-center items-center gap-2  py-5"
       >
         <input
           type="text"
           name="name"
           value={form.name}
           placeholder="Enter your Name"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           onChange={handleChange}
         />
         <input
           type="text"
           name="address"
           placeholder="Enter your address"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           value={form.address}
           onChange={handleChange}
         />
@@ -124,7 +125,7 @@ function Profile() {
           type="text"
           name="description"
           placeholder="Enter your description"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           value={form.description}
           onChange={handleChange}
         />
@@ -132,14 +133,14 @@ function Profile() {
           type="file"
           name="photo"
           placeholder="Upload your photo"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           onChange={handleChange}
         />
         <input
           type="number"
           name="phone"
           placeholder="Enter your phone No"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           value={form.phone}
           onChange={handleChange}
         />
@@ -147,7 +148,7 @@ function Profile() {
           type="text"
           name="interests"
           placeholder="Enter your interests"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           value={form.interests}
           onChange={handleChange}
         />
@@ -155,19 +156,19 @@ function Profile() {
           type="Number"
           name="latitude"
           placeholder="Enter the value of latitude"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           value={form.latitude}
           onChange={handleChange}
         />
         <input
           type="Number"
           name="longitude"
-          className="border w-[20rem]"
+          className="border w-[20rem] rounded-md pl-2 my-1"
           placeholder="Enter the value of longitude"
           value={form.longitude}
           onChange={handleChange}
         />
-        <button type="submit" className="bg-blue-400 rounded px-4 py-1">
+        <button type="submit" className="bg-blue-400 rounded px-4 py-1 cursor-pointer">
           Submit
         </button>
       </form>
