@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Shikhar Khandelwal",
+        "address": "Jaipur, Rajasthan",
+        "latitude": 26.9196,
+        "longitude": 75.7878,
+        "photo": "https://source.unsplash.com/random/200x200/?person",
+        "description": "Description",
+        "phone": 9928834567,
+        "interests": ["Sleeping", "Singing", "Reading"]
+    },
+    {
+        "name": "Aarav Mehta",
+        "address": "Mumbai, Maharashtra",
+        "latitude": 19.076090,
+        "longitude": 72.877426,
+        "photo": "https://source.unsplash.com/random/200x200/?person",
+        "description": "Adventure is out there!",
+        "phone": 9876543210,
+        "interests": ["Traveling", "Photography", "Music"]
+    },
+    {
+        "name": "Neha Sharma",
+        "address": "Delhi, India",
+        "latitude": 28.704059,
+        "longitude": 77.102490,
+        "photo": "https://source.unsplash.com/random/200x200/?woman",
+        "description": "Live, laugh, love!",
+        "phone": 8765432109,
+        "interests": ["Cooking", "Dancing", "Reading"]
+    },
+    {
+        "name": "Rajiv Kapoor",
+        "address": "Bangalore, Karnataka",
+        "latitude": 12.971599,
+        "longitude": 77.594566,
+        "photo": "https://source.unsplash.com/random/200x200/?man",
+        "description": "Keep moving forward.",
+        "phone": 7654321098,
+        "interests": ["Coding", "Gaming", "Running"]
+    },
+    {
+        "name": "Pooja Reddy",
+        "address": "Hyderabad, Telangana",
+        "latitude": 17.387140,
+        "longitude": 78.491684,
+        "photo": "https://source.unsplash.com/random/200x200/?girl",
+        "description": "Dream big, work hard!",
+        "phone": 6543210987,
+        "interests": ["Writing", "Sketching", "Singing"]
+    },
+    {
+        "name": "Ankit Verma",
+        "address": "Chennai, Tamil Nadu",
+        "latitude": 13.067439,
+        "longitude": 80.237617,
+        "photo": "https://source.unsplash.com/random/200x200/?boy",
+        "description": "Sky is the limit!",
+        "phone": 5432109876,
+        "interests": ["Swimming", "Chess", "Music"]
+    },
+    {
+        "name": "Simran Kaur",
+        "address": "Amritsar, Punjab",
+        "latitude": 31.633980,
+        "longitude": 74.872261,
+        "photo": "https://source.unsplash.com/random/200x200/?woman,portrait",
+        "description": "Smiling my way through life!",
+        "phone": 4321098765,
+        "interests": ["Fashion", "Makeup", "Dancing"]
+    },
+    {
+        "name": "Manish Gupta",
+        "address": "Lucknow, Uttar Pradesh",
+        "latitude": 26.850000,
+        "longitude": 80.949997,
+        "photo": "https://source.unsplash.com/random/200x200/?man,portrait",
+        "description": "Life is a journey, not a race.",
+        "phone": 3210987654,
+        "interests": ["Football", "Blogging", "Vlogging"]
+    },
+    {
+        "name": "Sanya Malhotra",
+        "address": "Pune, Maharashtra",
+        "latitude": 18.516726,
+        "longitude": 73.856255,
+        "photo": "https://source.unsplash.com/random/200x200/?girl,portrait",
+        "description": "Find joy in the little things.",
+        "phone": 2109876543,
+        "interests": ["Yoga", "Travel", "Music"]
+    },
+    {
+        "name": "Kunal Joshi",
+        "address": "Ahmedabad, Gujarat",
+        "latitude": 23.025800,
+        "longitude": 72.587300,
+        "photo": "https://source.unsplash.com/random/200x200/?man,smiling",
+        "description": "Work hard, party harder!",
+        "phone": 1098765432,
+        "interests": ["Cycling", "Baking", "Movies"]
+    },
+    {
+        "name": "Ritu Saxena",
+        "address": "Indore, Madhya Pradesh",
+        "latitude": 22.719568,
+        "longitude": 75.857727,
+        "photo": "https://source.unsplash.com/random/200x200/?woman,smiling",
+        "description": "Happiness is homemade!",
+        "phone": 9876501234,
+        "interests": ["Painting", "Dancing", "Cooking"]
+    },
+    {
+        "name": "Vikram Singh",
+        "address": "Jaipur, Rajasthan",
+        "latitude": 26.9196,
+        "longitude": 75.7878,
+        "photo": "https://source.unsplash.com/random/200x200/?man,casual",
+        "description": "Chasing dreams one step at a time.",
+        "phone": 8765012345,
+        "interests": ["Photography", "Gaming", "Sketching"]
+    },
+    {
+        "name": "Priya Nair",
+        "address": "Kochi, Kerala",
+        "latitude": 9.931233,
+        "longitude": 76.267303,
+        "photo": "https://source.unsplash.com/random/200x200/?woman,glasses",
+        "description": "Books and coffee make a perfect combo!",
+        "phone": 7654012345,
+        "interests": ["Reading", "Writing", "Gardening"]
+    },
+    {
+        "name": "Rohan Das",
+        "address": "Kolkata, West Bengal",
+        "latitude": 22.572645,
+        "longitude": 88.363892,
+        "photo": "https://source.unsplash.com/random/200x200/?man,hat",
+        "description": "Live life with no regrets.",
+        "phone": 6543012345,
+        "interests": ["Music", "Football", "Coding"]
+    },
+    {
+        "name": "Ananya Iyer",
+        "address": "Nagpur, Maharashtra",
+        "latitude": 21.146633,
+        "longitude": 79.088860,
+        "photo": "https://source.unsplash.com/random/200x200/?girl,artistic",
+        "description": "Life’s a canvas, paint it your way.",
+        "phone": 5432012345,
+        "interests": ["Art", "Calligraphy", "Theatre"]
+    },
+    {
+        "name": "Mohit Choudhary",
+        "address": "Patna, Bihar",
+        "latitude": 25.594095,
+        "longitude": 85.137566,
+        "photo": "https://source.unsplash.com/random/200x200/?man,modern",
+        "description": "Be your own hero.",
+        "phone": 4321012345,
+        "interests": ["Public Speaking", "Podcasting", "Writing"]
+    },
+    {
+        "name": "Sneha Ramesh",
+        "address": "Coimbatore, Tamil Nadu",
+        "latitude": 11.016844,
+        "longitude": 76.955833,
+        "photo": "https://source.unsplash.com/random/200x200/?woman,young",
+        "description": "Every day is a new beginning!",
+        "phone": 3210012345,
+        "interests": ["Dancing", "Singing", "Meditation"]
+    },
+    {
+        "name": "Aryan Mishra",
+        "address": "Bhopal, Madhya Pradesh",
+        "latitude": 23.259933,
+        "longitude": 77.412613,
+        "photo": "https://source.unsplash.com/random/200x200/?man,serious",
+        "description": "Take risks, live free!",
+        "phone": 2100012345,
+        "interests": ["Mountaineering", "Fitness", "Travel"]
+    }
+]
