@@ -10,14 +10,18 @@ function Dashboard() {
   const [profile, setProfile] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [selectedProfile, setSelectedProfile]=useState(null);
+  const [loading, setLoading] = useState(true);
 
   async function allProfile() {
     try{
 
         const response = await instance.get("/fetch");
         setProfile(response.data.profiles);
+        setLoading(false);
+
     }catch(error){
         console.error("Erorr fetching profiles:",error);
+        setLoading(true)
     }
   }
 
@@ -34,6 +38,9 @@ async function handleDelete(Userid){
  await instance.delete(`/deleteProfile/${Userid}`)
  allProfile()
 }
+
+
+if (loading) return <Loader />
 
 return (
     <div className="flex items-center justify-center gap-10 flex-wrap my-8 h-screen">

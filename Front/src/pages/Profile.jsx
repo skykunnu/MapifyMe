@@ -6,6 +6,8 @@ import {useNavigate} from 'react-router-dom'
 
 function Profile() {
   const navigate=useNavigate();
+  const [loading, setLoading] = useState(false);
+
   const [form, setForm] = useState({
     name: "",
     address: "",
@@ -50,6 +52,8 @@ function Profile() {
   }, [form.address]);
 
   async function handleSubmit(e) {
+    setLoading(true)
+
     e.preventDefault();
     try {
       const frm = new FormData();
@@ -69,6 +73,7 @@ function Profile() {
           "Content-Type": "multipart/form-data",
         },
       });
+      setLoading(false)
       
       if(response){
         navigate("/")
@@ -97,6 +102,9 @@ function Profile() {
       setForm({ ...form, [name]: value });
     }
   }
+
+if(loading) return <Loader />
+
   return (
     <div className="text-center mt-2 w-[40rem] mx-auto">
       <h1 className='text-2xl font-bold'>Create Your Profile</h1>
