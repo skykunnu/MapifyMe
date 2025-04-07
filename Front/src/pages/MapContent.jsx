@@ -52,11 +52,6 @@ function MapContent({ profile, onclose }) {
                 position={{ lat: profile.latitude, lng: profile.longitude }}
               />
             )}
-
-            {/* <Marker
-              ref={markerRef}
-              position={{ lat: 53.54992, lng: 10.00678 }}
-            /> */}
           </Map>
         </APIProvider>
 
