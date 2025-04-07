@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { useEffect, useState } from "react";
 import MapContent from "./MapContent.jsx";
 import { ImCross } from "react-icons/im";
+import Loader from "../Components/Loader";
 
 
 

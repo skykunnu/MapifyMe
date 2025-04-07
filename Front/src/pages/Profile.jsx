@@ -1,8 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import instance from "../axiosConfig";
 import axios from "axios";
 import {useNavigate} from 'react-router-dom'
+import Loader from "../Components/Loader";
 
 function Profile() {
   const navigate=useNavigate();
