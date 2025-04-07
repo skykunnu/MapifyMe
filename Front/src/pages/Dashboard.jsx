@@ -15,7 +15,6 @@ function Dashboard() {
     try{
 
         const response = await instance.get("/fetch");
-        console.log(response.data.profiles);
         setProfile(response.data.profiles);
     }catch(error){
         console.error("Erorr fetching profiles:",error);
