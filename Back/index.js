@@ -26,5 +26,4 @@ app.use("/profile",profileRouter)
 
 app.listen(port, () => {
   console.log("Server started at " + port);
-  console.log(process.env.FRONTEND_URL);
 });
