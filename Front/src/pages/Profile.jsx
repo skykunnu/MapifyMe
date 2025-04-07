@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import instance from "../axiosConfig";
 import axios from "axios";
+import {useNavigate} from 'react-router-dom'
 
 function Profile() {
+  const navigate=useNavigate();
   const [form, setForm] = useState({
     name: "",
     address: "",
@@ -15,10 +17,8 @@ function Profile() {
     longitude: "",
   });
 
-  // Replace with your Google Maps API key
   const ApiKey = import.meta.env.VITE_API_KEY;
 
-  // Function to fetch latitude and longitude from address
   const getCoordinates = async (address) => {
     if (!address) return;
     try {
@@ -43,7 +43,6 @@ function Profile() {
     }
   };
 
-  // Use useEffect to trigger geocoding when address changes
   useEffect(() => {
     if (form.address) {
       getCoordinates(form.address);
@@ -52,7 +51,6 @@ function Profile() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    // console.log(form);
     try {
       const frm = new FormData();
       frm.append("name", form.name);
@@ -64,14 +62,17 @@ function Profile() {
       frm.append("latitude", form.latitude);
       frm.append("longitude", form.longitude);
 
-      //   console.log(form);
+  
 
       const response = await instance.post("/addProfile", frm, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
-      console.log(response);
+      
+      if(response){
+        navigate("/")
+      }
 
       setForm({
         name: "",
