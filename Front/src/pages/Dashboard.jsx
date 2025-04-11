@@ -65,7 +65,7 @@ return (
               onClick={() => handleOpenModal(user)}
               className="bg-blue-400 rounded px-4 py-2 mt-4 cursor-pointer"
             >
-              Summary
+              View Profile
             </button>
           </div>
         ))}
